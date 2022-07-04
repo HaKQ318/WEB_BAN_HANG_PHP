@@ -1,0 +1,13 @@
+<?php 
+    //load file layout vao day
+    self::$fileLayout = "LayoutTrangTrong.php";
+ ?>
+ <br>
+ <div class="middle">
+     <!-- chi tiet -->
+     <h3 style="color:red"><?php echo $record->name; ?></h3>
+     <img src="assets/upload/news/<?php echo $record->photo; ?>" style="width: 50%;">
+     <p ><?php echo $record->description; ?></p>
+     <p><?php echo $record->content; ?></p>
+     <!-- /chi tiet -->
+ </div>
